@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MFMailComposeViewControllerDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextView *myTextView;
+- (IBAction)emaiButton:(id)sender;
+
 
 @end

@@ -12,19 +12,14 @@
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    
-    UIImage *menubar = [UIImage imageNamed:@"menubar2"];
-    [[UINavigationBar appearanceWhenContainedIn:[ViewController class], nil] setBackgroundImage:menubar
-                                                                                  forBarMetrics:UIBarMetricsDefault];
-        
     return YES;
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

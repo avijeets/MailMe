@@ -14,16 +14,33 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)emaiButton:(id)sender {
+    
+    MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
+    [mailController setMailComposeDelegate:self];
+    NSString *emailAddress = @"a@avijeets.com"; //Change to your email address
+    NSArray *emailArray = [[NSArray alloc] initWithObjects:emailAddress, nil];
+    NSString *message = [[self myTextView] text];
+    [mailController setMessageBody:message isHTML:NO];
+    [mailController setToRecipients:emailArray];
+    [mailController setSubject:@"Reminder!"];
+    [self presentViewController:mailController animated:YES completion:nil];
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [[self myTextView] resignFirstResponder];
+}
+
+-(void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
+    [self dismissViewControllerAnimated:YES completion:NO];
 }
 
 @end
