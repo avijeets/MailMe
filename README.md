@@ -16,3 +16,10 @@ In it, you will see:
     NSString *emailAddress = @"a@avijeets.com";
 
 Change the adress to your own. Once done, run the app on your phone, and it should work properly. It should email whatever you type into the canvas. 
+
+Credit 
+======
+
+Icon credit goes to the incredible [Tobia Crivellari](http://dribbble.com/TobiaCrivellari).
+
+Code done by [Avijeet Sachdev](http://avijeets.com/].
