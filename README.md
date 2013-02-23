@@ -22,4 +22,4 @@ Credit
 
 Icon credit goes to the incredible [Tobia Crivellari](http://dribbble.com/TobiaCrivellari).
 
-Code done by [Avijeet Sachdev](http://avijeets.com/].
+Code done by [Avijeet Sachdev](http://avijeets.com/).
