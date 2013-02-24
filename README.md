@@ -3,6 +3,8 @@
 
 MailMe is a simple iOS application that allows the user to email themselves quickly and simply. Whatever is written in the app is directed to an email to yourself immediately. 
 
+<img src="https://raw.github.com/avijeets/MailMe/master/Resources/app.png"> <img src="https://raw.github.com/avijeets/MailMe/master/Resources/mail.png">
+
 Installation
 ======
 
