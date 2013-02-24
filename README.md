@@ -1,4 +1,4 @@
-MailMe
+##MailMe
 ======
 
 MailMe is a simple iOS application that allows the user to email themselves quickly and simply. Whatever is written in the app is directed to an email to yourself immediately. 
