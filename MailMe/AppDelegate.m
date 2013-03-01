@@ -19,10 +19,6 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
-    UIImage *menubar = [UIImage imageNamed:@"menubar2"];
-    [[UINavigationBar appearanceWhenContainedIn:[ViewController class], nil] setBackgroundImage:menubar
-                                                                                  forBarMetrics:UIBarMetricsDefault];
-        
     return YES;
     
 }

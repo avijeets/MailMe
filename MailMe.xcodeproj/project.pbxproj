@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A0672A816DAA58F00EF0DAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0672A716DAA58F00EF0DAC /* Default@2x.png */; };
-		9A0672AA16DAA59100EF0DAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0672A916DAA59100EF0DAC /* Default.png */; };
-		9A0672AC16DAA59600EF0DAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0672AB16DAA59600EF0DAC /* Default-568h@2x.png */; };
 		9A496F9116D972540059866B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A496F8B16D972540059866B /* Default-568h@2x.png */; };
 		9A496F9216D972540059866B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A496F8C16D972540059866B /* Default.png */; };
 		9A496F9316D972540059866B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A496F8D16D972540059866B /* Default@2x.png */; };
@@ -28,9 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A0672A716DAA58F00EF0DAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		9A0672A916DAA59100EF0DAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		9A0672AB16DAA59600EF0DAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9A496F8B16D972540059866B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9A496F8C16D972540059866B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9A496F8D16D972540059866B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -84,9 +78,6 @@
 		9A61FE5D16D0A2EF00DF5EB4 = {
 			isa = PBXGroup;
 			children = (
-				9A0672AB16DAA59600EF0DAC /* Default-568h@2x.png */,
-				9A0672A916DAA59100EF0DAC /* Default.png */,
-				9A0672A716DAA58F00EF0DAC /* Default@2x.png */,
 				9A61FE6F16D0A2EF00DF5EB4 /* MailMe */,
 				9A61FE6816D0A2EF00DF5EB4 /* Frameworks */,
 				9A61FE6716D0A2EF00DF5EB4 /* Products */,
@@ -196,9 +187,6 @@
 				9A496F9416D972540059866B /* icon.png in Resources */,
 				9A496F9516D972540059866B /* icon@2x.png in Resources */,
 				9A496F9616D972540059866B /* send.jpg in Resources */,
-				9A0672A816DAA58F00EF0DAC /* Default@2x.png in Resources */,
-				9A0672AA16DAA59100EF0DAC /* Default.png in Resources */,
-				9A0672AC16DAA59600EF0DAC /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
