@@ -31,7 +31,7 @@
     NSString *message = [[self myTextView] text];
     [mailController setMessageBody:message isHTML:NO];
     [mailController setToRecipients:emailArray];
-    [mailController setSubject:@"Note to Self!"];
+    [mailController setSubject:@"Note To Self"];
     [self presentViewController:mailController animated:YES completion:nil];
 }
 
